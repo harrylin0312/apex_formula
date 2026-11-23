@@ -3,7 +3,7 @@ set -eu
 project_root=$(git rev-parse --show-toplevel)
 cd "$project_root"
 [ "$(git branch --show-current)" = main ] || { echo '請切換到 main 再發布。' >&2; exit 1; }
-[ "$(git remote get-url origin)" = 'https://github.com/harrylin0312/apex-formula.git' ] || { echo 'origin 不符合正式專案。' >&2; exit 1; }
+[ "$(git remote get-url origin)" = 'https://github.com/harrylin0312/apex_formula.git' ] || { echo 'origin 不符合正式專案。' >&2; exit 1; }
 [ -z "$(git status --porcelain)" ] || { echo '請先確認並提交工作目錄的修改。' >&2; exit 1; }
 node --check dist/core.js
 node --check dist/game.js

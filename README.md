@@ -1,6 +1,6 @@
 # APEX — Alpine Grand Prix
 
-[開始遊戲](https://harrylin0312.github.io/apex-formula/) · [物理報告](https://harrylin0312.github.io/apex-formula/physics-report.html) · [審查交接](REVIEW_HANDOFF.md)
+[開始遊戲](https://harrylin0312.github.io/apex_formula/) · [物理報告](https://harrylin0312.github.io/apex_formula/physics-report.html) · [審查交接](REVIEW_HANDOFF.md)
 
 **待修問題：高速容易打滑。** 本次先發布現況供檢查，尚未套用高速操控修正；請先讀交接文件與研究重現程式。既有 18 項測試通過，不代表高速手感已驗證。
 
@@ -46,7 +46,7 @@ The `main` branch contains the complete editable source and tests. The `gh-pages
 
 ## Complete 3D car model
 
-The car is now the downloaded **Formula F226** by **CarlosCG31** (CC BY 4.0), using the 73,052-triangle, 529,804-byte web-optimized GLB distributed by BadCodesGG / interactive-f1. Source links, changes and licensing are in [ASSET_CREDITS.md](ASSET_CREDITS.md) and [the in-game credits page](https://harrylin0312.github.io/apex-formula/asset-credits.html).
+The car is now the downloaded **Formula F226** by **CarlosCG31** (CC BY 4.0), using the 73,052-triangle, 529,804-byte web-optimized GLB distributed by BadCodesGG / interactive-f1. Source links, changes and licensing are in [ASSET_CREDITS.md](ASSET_CREDITS.md) and [the in-game credits page](https://harrylin0312.github.io/apex_formula/asset-credits.html).
 
 `dist/car-model.js` loads bundled glTF/Meshopt tools, expands quantized attributes, corrects mirrored winding, shares merged static geometry, aligns four independently animated wheels to physical contacts, applies APEX paint/decals and supplies fixed camera mounts. The physics core and parameters are unchanged. The cockpit eye is fitted to the downloaded model; the vehicle model does not define collision geometry or grip.
 

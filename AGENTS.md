@@ -1,7 +1,7 @@
 # APEX 工作指引
 
 - 使用繁體中文。
-- 正式副本為 GHProjects/apex-formula，origin 必須是 https://github.com/harrylin0312/apex-formula.git。
+- 正式副本為 GHProjects/apex_formula，origin 必須是 https://github.com/harrylin0312/apex_formula.git。
 - 開工先讀上層 GHProjects/AGENTS.md，確認分支、upstream、工作目錄與遠端狀態；保留使用者既有修改，不要強制推送。
 - 先讀 REVIEW_HANDOFF.md 與 PHYSICS_REPORT.md，特別注意高速打滑尚未修正。
 - dist/ 是可部署的原始程式，不是可以刪除後重建的暫存輸出。這個專案沒有 npm 建置步驟。

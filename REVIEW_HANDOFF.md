@@ -98,11 +98,11 @@ python3 -m http.server 8765 --directory dist
 node tests/physics.test.mjs
 ```
 
-GitHub Pages： https://harrylin0312.github.io/apex-formula/
+GitHub Pages： https://harrylin0312.github.io/apex_formula/
 
-原始碼： https://github.com/harrylin0312/apex-formula
+原始碼： https://github.com/harrylin0312/apex_formula
 
-報告： https://harrylin0312.github.io/apex-formula/physics-report.html
+報告： https://harrylin0312.github.io/apex_formula/physics-report.html
 
 GitHub Pages 與原先的 Sites 網站是獨立發布，不會自動彼此更新。本次 GitHub 發布是供審查的現況版本。
 
